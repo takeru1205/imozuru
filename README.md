@@ -33,6 +33,22 @@ flowchart LR
 
 ## Codex への導入
 
+### Codex にインストールを頼む（おすすめ）
+
+Codex の会話欄に、次を貼り付ける。`$skill-installer` は Codex 標準のインストール用スキルで、GitHub の URL を指定して導入できる。ターミナルで実行するコマンドではない。
+
+```text
+$skill-installer https://github.com/takeru1205/imozuru/tree/main/skills/imozuru
+```
+
+インストールが完了したら、次のメッセージから使える。
+
+```text
+$imozuru Gaussian Splatting の原典を芋づる式に調べて
+```
+
+### 手動でインストールする場合
+
 このリポジトリを取得し、`skills/imozuru/` を Codex のスキルディレクトリへコピーする。macOS / Linux で、リポジトリのルートから実行する例:
 
 ```sh
