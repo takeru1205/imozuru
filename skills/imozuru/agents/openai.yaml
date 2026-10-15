@@ -1,0 +1,4 @@
+interface:
+  display_name: "imozuru"
+  short_description: "未知の分野を芋づる式に掘り、原典・抜き書きと新着の一覧を手元に集める"
+  default_prompt: "$imozuru を使い、この分野の用語・人・場から原典をたどって、原文と照合済みの抜き書きを保存してください。"

@@ -17,7 +17,7 @@
                                                --fresh は見た記録を無視して窓だけで選び直す
                                                新着の無い場所も、最新の1件を窓に関係なく出す
 
-置き場（<topic_dir> = ~/research/<話題>/）:
+置き場（<topic_dir> は指定先。スキルの既定は作業フォルダ内の research/<話題>/）:
     watch.tsv          種類・名前・フィードの URL・元の URL（タブ区切り）
     watch-state.json   フィードごとに見たことのある記事の URL
     watch/<日付>.md     check の結果
